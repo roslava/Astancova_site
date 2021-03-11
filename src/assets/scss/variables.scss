@@ -1,0 +1,74 @@
+$color_white: rgba(255, 255, 255, 1);
+$color_light-gray: rgba(229, 229, 229, 1);
+$color_light-gray-d: rgba(218, 220, 224, 1);
+$color_light-blue-dd: rgba(209, 213, 221, 1);
+$color_light-blue: rgba(194, 203, 226, 1);
+$color_blue: rgba(96, 119, 181, 1);
+$color_dark-lue: rgba(33, 64, 154, 1);
+$color_dark-lue-30: rgba(33, 64, 154, .3);
+$color_dark-lue-50: rgba(33, 64, 154, .5);
+$color_dark-lue-70: rgba(33, 64, 154, .7);
+$color_dark-gray-l: rgba(107, 108, 111, 1);;
+$color_dark-gray: rgba(60, 61, 63, 1);
+$color_soft-black: rgba(43, 44, 48, 1);
+$color_deep-black: rgba(35, 36, 38, 1);
+$color_accent: rgba(140, 203, 3, 1);
+$color_blu-links: rgba(21, 127, 251, 1);
+$color_invisible: rgb(0%, 0%, 0%, 0);
+
+$color_gradient-blue: linear-gradient(90deg, rgba(33,47,121,.8) 35%, rgba(71,159,228,.8) 100%, rgba(2,0,36,1) 244394%);
+$color_gradient-blue2: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+
+// $box-shadow: 0 0.5rem 1rem rgba($black, 0.15) !default;
+
+
+.bg-color{
+
+	&__light-gray{
+		background-color: $color_white;
+    // bg-color__white
+	}
+	&__light-gray{
+		background-color: $color_light-gray;
+    // bg-color__light-gray
+	}
+	&__light-gray-d{
+		background-color: $color_light-gray-d;
+    // bg-color__light-gray-d
+	}
+	&__light-gray-dd{
+		background-color: $color_light-blue-dd;
+    // bg-color__light-gray-dd
+	}
+
+	&__light-blue{
+		background-color: $color_light-blue;
+    // bg-color__light-blue
+	}
+
+	&__blue{
+		background-color: $color_blue;
+    // bg-color__blue
+	}
+
+	&__dark-lue{
+		background-color: $color_dark-lue;
+    // bg-color__dark-lue
+	}
+
+	&__dark-gray{
+		background-color: $color_dark-gray;
+    // bg-color__dark-gray
+	}
+
+	&__soft-black{
+		background-color: $color_soft-black;
+    // bg-color__soft-black
+	}
+
+	&__soft-deep-black{
+		background-color: $color_deep-black;
+    // bg-color__soft-deep-black
+	}
+
+}
